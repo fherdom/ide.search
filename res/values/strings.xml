@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GRAFCAN-IDE</string>
+    <string name="btnSearch">Search!</string>
+    <string name="btnGeoSearch">GeoSearch</string>
+    <string name="btnReverseGeocoding">ReverseGeocoding</string>
+    <string name="btnGeoOpenLayers">GeoOpenLayers</string>
+    <string name="lstSearch">Results!</string>
+    <string name="txtView">Results!</string>
+</resources>
