@@ -7,4 +7,12 @@
     <string name="btnGeoOpenLayers">GeoOpenLayers</string>
     <string name="lstSearch">Results!</string>
     <string name="txtView">Results!</string>
+    <string name="btnGeoSearch001">GeoSearch001</string>
+    
+    <string name="search_hint">Buscar IDECanarias</string>
+    
+    <string name="menu_search">Buscar</string>
+    <string name="click_menu">Pulsa menu para buscar</string>
+    <string name="no_results">No se encontraron resultados para \"%s\"</string>
+    <string name="results">Número de resultados: %s</string>
 </resources>

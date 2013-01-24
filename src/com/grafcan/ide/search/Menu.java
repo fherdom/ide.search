@@ -21,8 +21,8 @@ public class Menu extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.menu);
         Log.i(DEBUG_TAG, "init activity");
-        Button btnGeoSearch = (Button)findViewById(R.id.btnGeoSearch);
         
+        Button btnGeoSearch = (Button)findViewById(R.id.btnGeoSearch);
         btnGeoSearch.setOnClickListener(new OnClickListener() {
         	public void onClick(View v) {
         		Intent iGeoSearch = new Intent(Menu.this, GeoSearch.class);
@@ -43,11 +43,21 @@ public class Menu extends Activity {
         Button btnGeoOpenLayers = (Button)findViewById(R.id.btnGeoOpenLayers);
         btnGeoOpenLayers.setOnClickListener(new OnClickListener() {
         	public void onClick(View v) {
-        		Intent iGeoOpenLayers = new Intent(Menu.this, GeoOpenLayers.class);
+        		Intent iGeoOpenLayers = new Intent(Menu.this, GeoOpenLayers001.class);
         		startActivity(iGeoOpenLayers);
-        		Log.i(DEBUG_TAG, "init GeoOpenLayers");
+        		Log.i(DEBUG_TAG, "init GeoOpenLayers 001");
         	}
         });
+        
+        Button btnGeoSearch001 = (Button)findViewById(R.id.btnGeoSearch001);
+        btnGeoSearch001.setOnClickListener(new OnClickListener() {
+        	public void onClick(View v) {
+        		Intent iGeoSearch001 = new Intent(Menu.this, GeoSearch001.class);
+        		startActivity(iGeoSearch001);
+        		Log.i(DEBUG_TAG, "init GeoSearch001");
+        	}
+        });
+                
     }
     
     @Override

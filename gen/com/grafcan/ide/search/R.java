@@ -23,46 +23,68 @@ public final class R {
         public static final int help_button=0x7f020009;
         public static final int help_highlighted=0x7f02000a;
         public static final int help_pressed=0x7f02000b;
-        public static final int ic_launcher=0x7f02000c;
-        public static final int options=0x7f02000d;
-        public static final int options_button=0x7f02000e;
-        public static final int options_highlighted=0x7f02000f;
-        public static final int options_pressed=0x7f020010;
-        public static final int startgame=0x7f020011;
-        public static final int startgame_button=0x7f020012;
-        public static final int startgame_highlighted=0x7f020013;
-        public static final int startgame_pressed=0x7f020014;
+        public static final int ic_dictionary=0x7f02000c;
+        public static final int ic_launcher=0x7f02000d;
+        public static final int ic_menu_search=0x7f02000e;
+        public static final int options=0x7f02000f;
+        public static final int options_button=0x7f020010;
+        public static final int options_highlighted=0x7f020011;
+        public static final int options_pressed=0x7f020012;
+        public static final int startgame=0x7f020013;
+        public static final int startgame_button=0x7f020014;
+        public static final int startgame_highlighted=0x7f020015;
+        public static final int startgame_pressed=0x7f020016;
     }
     public static final class id {
-        public static final int btnGeoOpenLayers=0x7f05000b;
-        public static final int btnGeoSearch=0x7f050007;
-        public static final int btnReverseGeocoding=0x7f050009;
-        public static final int btnSearch=0x7f050003;
-        public static final int item_subtitle=0x7f050001;
-        public static final int item_title=0x7f050000;
-        public static final int lstSearch=0x7f050004;
-        public static final int txtSearch=0x7f050002;
-        public static final int webkit=0x7f05000c;
-        public static final int widget28=0x7f050005;
-        public static final int widget34=0x7f050008;
-        public static final int widget35=0x7f05000a;
-        public static final int widget45=0x7f050006;
+        public static final int btnGeoOpenLayers=0x7f07000d;
+        public static final int btnGeoSearch=0x7f070009;
+        public static final int btnGeoSearch001=0x7f07000e;
+        public static final int btnReverseGeocoding=0x7f07000b;
+        public static final int btnSearch=0x7f070003;
+        public static final int item_subtitle=0x7f070005;
+        public static final int item_title=0x7f070004;
+        public static final int list=0x7f070001;
+        public static final int lstSearch=0x7f070006;
+        public static final int search=0x7f070011;
+        public static final int text=0x7f070000;
+        public static final int textView1=0x7f070010;
+        public static final int txtSearch=0x7f070002;
+        public static final int webkit=0x7f07000f;
+        public static final int widget28=0x7f070007;
+        public static final int widget34=0x7f07000a;
+        public static final int widget35=0x7f07000c;
+        public static final int widget45=0x7f070008;
     }
     public static final class layout {
-        public static final int itemlistplaceholder=0x7f030000;
-        public static final int listplaceholder=0x7f030001;
-        public static final int main_old=0x7f030002;
-        public static final int menu=0x7f030003;
-        public static final int rlistplaceholder=0x7f030004;
-        public static final int webkit=0x7f030005;
+        public static final int geosearch001=0x7f030000;
+        public static final int geosearch002=0x7f030001;
+        public static final int itemlistplaceholder=0x7f030002;
+        public static final int listplaceholder=0x7f030003;
+        public static final int main_old=0x7f030004;
+        public static final int menu=0x7f030005;
+        public static final int rlistplaceholder=0x7f030006;
+        public static final int webkit=0x7f030007;
+    }
+    public static final class menu {
+        public static final int open_menu=0x7f060000;
+        public static final int options_menu=0x7f060001;
     }
     public static final class string {
-        public static final int app_name=0x7f040000;
-        public static final int btnGeoOpenLayers=0x7f040004;
-        public static final int btnGeoSearch=0x7f040002;
-        public static final int btnReverseGeocoding=0x7f040003;
-        public static final int btnSearch=0x7f040001;
-        public static final int lstSearch=0x7f040005;
-        public static final int txtView=0x7f040006;
+        public static final int app_name=0x7f050000;
+        public static final int btnGeoOpenLayers=0x7f050004;
+        public static final int btnGeoSearch=0x7f050002;
+        public static final int btnGeoSearch001=0x7f050007;
+        public static final int btnReverseGeocoding=0x7f050003;
+        public static final int btnSearch=0x7f050001;
+        public static final int click_menu=0x7f05000a;
+        public static final int lstSearch=0x7f050005;
+        public static final int menu_search=0x7f050009;
+        public static final int no_results=0x7f05000b;
+        public static final int results=0x7f05000c;
+        public static final int search_hint=0x7f050008;
+        public static final int txtView=0x7f050006;
+    }
+    public static final class xml {
+        public static final int searchable=0x7f040000;
     }
 }
