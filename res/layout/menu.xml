@@ -54,7 +54,14 @@
 		android:layout_height="wrap_content"
 		android:text="@string/btnGeoSearch001">
 	</Button>
-	
+
+		<Button
+		android:id="@+id/btnWMSMap"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/btnWMSMap">
+	</Button>
+		
 </TableLayout>
 	
 

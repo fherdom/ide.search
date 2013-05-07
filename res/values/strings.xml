@@ -8,6 +8,8 @@
     <string name="lstSearch">Results!</string>
     <string name="txtView">Results!</string>
     <string name="btnGeoSearch001">GeoSearch001</string>
+    <string name="btnWMSMap">WMSMap</string>
+    
     
     <string name="search_hint">Buscar IDECanarias</string>
     
@@ -15,4 +17,32 @@
     <string name="click_menu">Pulsa menu para buscar</string>
     <string name="no_results">No se encontraron resultados para \"%s\"</string>
     <string name="results">Número de resultados: %s</string>
+    
+	<string name="menu_settings">Settings</string>
+	<string-array name="layers_array">
+    	<item>@string/normal</item>
+    	<item>@string/hybrid</item>
+    	<item>@string/satellite</item>
+    	<item>@string/terrain</item>
+    	<item>@string/none</item>
+  	</string-array>
+    <string name="hybrid">Hybrid</string>
+    <string name="normal">Normal</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="none">None</string>
+    <string name="map_not_ready">Map is not ready yet</string>
+    <string name="my_overlay">WMS</string>
+    
+    
+    <string name="dashboard_title">Búsquedas IDECanarias</string>
+    <string name="dashboard_footer">contacto@felixjosehernandez.es</string>
+    <string name="subtitle">danielme.com</string>
+    <string name="button1">Búsqueda directa</string>
+    <string name="button2">Búsqueda inversa</string>   
+    <string name="button3">Noticias IDECanarias</string>   
+    <string name="button4">Visor</string>   
+    <string name="button5">Button 5</string>   
+    <string name="button6">Button 6</string>  
+    
 </resources>
