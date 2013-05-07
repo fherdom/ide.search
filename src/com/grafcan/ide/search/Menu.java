@@ -57,7 +57,15 @@ public class Menu extends Activity {
         		Log.i(DEBUG_TAG, "init GeoSearch001");
         	}
         });
-                
+           
+        Button btnWMSMap = (Button)findViewById(R.id.btnWMSMap);
+        btnWMSMap.setOnClickListener(new OnClickListener() {
+        	public void onClick(View v) {
+        		Intent iWMSMap = new Intent(Menu.this, WMSMapActivity.class);
+        		startActivity(iWMSMap);
+        		Log.i(DEBUG_TAG, "init WMSMapActivity");
+        	}
+        });
     }
     
     @Override

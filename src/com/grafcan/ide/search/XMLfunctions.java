@@ -144,10 +144,6 @@ public class XMLfunctions {
 		return XMLfunctions.getElementValue(n.item(0));
 	}
 	
-	
-	
-	
-	
 	/*
 	 * 
 	 * 
