@@ -58,7 +58,7 @@ var init = function () {
             new OpenLayers.Control.PinchZoom()
         ],
         layers: [
-            new OpenLayers.Layer.WMS("Orto", "http://idecan3.grafcan.es/ServicioWMS/OrtoExpress?",
+            new OpenLayers.Layer.WMS("Orto", "http://idecan1.grafcan.es/ServicioWMS/OrtoExpress?",
             		 {layers: 'ortoexpress', format: 'image/jpeg'}
             )
         ],
@@ -66,7 +66,10 @@ var init = function () {
         zoom: 3
     });
 
-    //map.zoomToFullExtent();
+    //map.zoomToMaxExtent();
+    
+    console.log("Init");
+    
     /*
     vectors = new OpenLayers.Layer.Vector("VectorLayer");
     map.addLayer(vectors);
